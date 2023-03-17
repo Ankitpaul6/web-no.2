@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: black;
+            color: azure;
+        }
+        nav{
+            margin: 20px;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+flex-direction: row;
+justify-content: right;
+gap: 20px;
+list-style: none;
+        }
+        .homeoption{
+            border-radius: 10px;
+            background-color: darkcyan;  }
+            .intro{
+                display: flex;
+                align-items: center;
+flex-direction: row;
+justify-content: center;
+
+
+            }
+            .line{
+                display: flex;
+
+            }
+            .line2 h3{
+                color: darkgoldenrod; }
+                .project{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 10px;}
+                    .projectlist{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 15px;
+                }
+                .contactdetails h1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .socials{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
+                }
+                @media screen and (max-width:570px) {
+                    
+        nav ul{
+            display: flex;
+            align-items: center;
+flex-direction: row;
+justify-content: right;
+gap: 20px;
+list-style: none;
+        }
+        .homeoption{
+            border-radius: 10px;
+            background-color: darkcyan;  }
+            .intro{
+                display: flex;
+                align-items: center;
+flex-direction: column;
+justify-content: center;
+
+
+            }
+            .line{
+                display: flex;
+
+            }
+            .line2 h3{
+                color: darkgoldenrod; }
+                .projectlist{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 10px;}
+                
+                .contactdetails h1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .socials{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
+                    
+                }}
+  
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="homeoption">home</li>
+                <li>project</li>
+                <li>Technology</li>
+                <li>contact</li> </ul>
+                <section class="intro">
+                    <div class="leftintro">
+                        <div class="line">
+                        <img src="C:\Users\User\Desktop\web\waving-hand.png" alt="" class="src" height="20px" width="20px">
+                        <h3>Hii Everyone</h3></div>
+                        <div class="line2">
+                            <h1>Mark Anderson</h1>
+                        <h3>developer</h3></div>
+                    </div>
+                    <div class="rightintro">
+                        <img src="C:\Users\User\Desktop\web\pc-image.png" alt="" class="src" height="200px" width="200px">
+                    </div>
+                </section>
+                <div class="project"><h1>project</h1>
+                    <div class="projectlist">
+                    <div class="project1">
+                        <img src="C:\Users\User\Desktop\web\image.png" alt="" class="src" height="200px" width="200px">
+                        <p>project1</p>
+                    </div>
+                    <div class="project2">
+                        <img src="C:\Users\User\Desktop\web\image.png" alt="" class="src" height="200px" width="200px">
+                        <p>project2</p>
+                    </div>
+                    <div class="project3">
+                        <img src="C:\Users\User\Desktop\web\image.png" alt="" class="src" height="200px" width="200px">
+                        <p>project3</p>
+                    </div>
+                    <div class="project4">
+                        <img src="C:\Users\User\Desktop\web\image.png" alt="" class="src" height="200px" width="200px">
+                        <p>project4</p></div>
+                    </div>
+                </div>
+                <footer>
+                <div class="contactdetails">
+                    <h1>Contact me</h1>
+                    <div class="socials">
+                        <img src="C:\Users\User\Desktop\web\github.png" alt="" class="src" height="25px" width="25px">
+                        <img src="C:\Users\User\Desktop\web\linkedin.png" alt="" class="src" height="25px" width="25px">
+                        <img src="C:\Users\User\Desktop\web\outlook.png" alt="" class="src" height="25px" width="25px">
+                        
+                    </div>
+                </div> 
+            </footer>
+        </nav>
+    </header>
+</body>
+</html>
